@@ -1,0 +1,38 @@
+.loginContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+/* .loginBox{
+    width: 100%; */
+    /* height: 100vh; */
+    /* display: flex;
+    align-items: center;
+    
+} */
+.loginContainer>header{
+    background-color: #00283C;
+    width: 100%;
+}
+.logoStyle{
+    height: 75px;
+    width: 150px;
+    margin-left: 10px;
+}
+.loginContent{
+    text-align: center;
+    box-sizing: border-box;
+}
+.loginContent>img{
+    /* width: 50%; */
+    height: 70vh;
+    object-fit: contain;
+}
+.customLoginButton{
+    width: 60%;
+    margin-bottom: 5px !important;
+    
+}
